@@ -8,6 +8,8 @@
     "watch": "nodemon server.js",
     "buildW": "webpack server.js dist/bundle.js"
   },
+  "proxy": "https://backend.spendingcalculator.xyz",
+
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -29,4 +31,5 @@
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
   }
+  
 }
